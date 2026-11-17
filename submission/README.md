@@ -1,4 +1,4 @@
-# Day 08 Lab — 2A202603112 - Nguyễn Hán Trường Giang
+# Day 08 Lab — 2A202603112 - Nguyễn Hán Trường Giang.
 Xem cấu trúc bắt buộc ở [../SUBMISSION.md](../SUBMISSION.md). Các file bạn **tự điền** (khuôn có sẵn ở đây):
 
 | File | Điền gì | Ví dụ một dòng |
