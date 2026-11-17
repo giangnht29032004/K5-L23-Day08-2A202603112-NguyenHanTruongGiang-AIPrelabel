@@ -1,1 +1,4 @@
-case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+﻿case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+CAL-01,img_018.jpg,loi_may,Đối chiếu nhãn cuối với pre-label phát hiện 43 đối tượng không ghép được: 24 person và 19 motorbike (đã lọc theo ngưỡng 20px),Không được coi ảnh không có box AI là ảnh không có vật thể; phải quét toàn ảnh và bổ sung vật bị bỏ sót,"Bổ sung quy tắc rà soát theo từng vùng ảnh, ưu tiên người và xe máy trong cảnh đông",v1.1
+CAL-02,img_005.jpg,cau_hoi_mo,Xe máy đỗ dày đặc gần camera: gán riêng hay dùng ignore_region?,Gán riêng từng xe nếu nhận diện được cá thể và chiều cao box đạt 20px; dùng ignore_region cho cụm ít nhất 5 vật nhỏ hoặc không thể tách rõ,Bổ sung mục 4.1.6: phân biệt vật thể riêng lẻ với cụm không thể tách,v1.1
+CAL-03,img_017.jpg|img_003.jpg,bay_lot,Hai bẫy sai lớp bị lọt: truck thành bus và motorbike thành bicycle,"Kiểm tra độc lập lớp của từng vật; truck là xe tải chở hàng, bus là xe chở khách lớn, motorbike có động cơ, bicycle đạp bằng chân; trường hợp không chắc phải đánh dấu can_review",Bổ sung quy tắc kiểm tra lớp tại mục 2 và mục 4.3,v1.1
