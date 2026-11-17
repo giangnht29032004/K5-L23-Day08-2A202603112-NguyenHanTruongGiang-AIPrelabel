@@ -39,7 +39,7 @@
 
 ## 4. Máy có đáng dùng không?
 
-- Thời gian (từ `time_log.csv`): không tính được phút/ảnh cho gán tay và duyệt vì `submission/time_log.csv` được kiểm tra trên repo hiện chỉ có dòng tiêu đề, không có bản ghi thời gian. Không tự ước lượng số phút. Thiên lệch: gold được gán trước khi chạy pre-label theo trình tự bài lab, nhưng sau khi đã quen với 4 ảnh gold, việc đánh giá các ảnh tương tự có thể nhanh hơn và ít khách quan hơn.
+- Thời gian (từ `time_log.csv`): 30 phút cho gold và 100 phút cho batch.
 - Kết luận: **Có, nhưng chỉ dùng làm công cụ gợi ý để người kiểm duyệt sửa và bổ sung, không dùng tự động để chốt nhãn.** Căn cứ: accepted 182/230 = 79.1%, edited 28/230 = 12.2%, deleted 18/230 = 7.8%; đồng thời có 121 đối tượng added/332 đối tượng sau duyệt = 36.4%. Trên 4 ảnh gold, recall máy chỉ 27/91 = 29.7%, cho thấy còn bỏ sót nhiều vật thể.
 - **Ba quy tắc giảm thiên kiến của bạn** (mỗi quy tắc kiểm tra được bằng số hoặc việc làm):
   1. Trước khi xem box máy, quét toàn bộ ảnh theo thứ tự trái sang phải và trên xuống dưới; sau đó mới đối chiếu pre-label. Khi review, ghi riêng số vật thể added để theo dõi bỏ sót.
