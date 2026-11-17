@@ -5,7 +5,7 @@
 - Lớp (L2 / L3 / khác): L2
 - Tài khoản GitHub: giangnht29032004
 - Repo bài nộp (URL): https://github.com/giangnht29032004/K5-L23-Day08-2A202603112-NguyenHanTruongGiang-AIPrelabel
-- Commit chốt bài (hash): Chưa có — cập nhật sau khi tạo commit cuối cùng.
+- Commit chốt bài (hash): 6ae59d19b015eab91d0bc90af99df332d6bb9542
 - Máy: Windows, CPU (không có GPU)
 - CVAT (Docker): phiên bản v2.81.0
 
